@@ -1,0 +1,16 @@
+{
+  "name": "portafolio-locucion",
+  "version": "1.0.0",
+  "description": "develop a portfolio for locution",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w sass -o css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "steph vega",
+  "license": "ISC"
+}
