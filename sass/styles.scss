@@ -1,3 +1,4 @@
-h1 {
-    color: aqua;
-}
+// @import "library/normalize";
+@import "variables";
+@import "partials/globals";
+@import "partials/header";

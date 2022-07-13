@@ -6,10 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="div">
-        <h1>Hola</h1>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="nav__container">
+                <img src="img/logo.png" alt="" class="logo">
+                <!-- <h1 class="nav__logo">StephVM</h1> -->
+                <label for="menu" class="nav__label">
+                    <img src="img/menu.svg" alt="" class="nav__img">
+                </label>
+                <input type="checkbox"  id="menu" class="nav__input">
+                <div class="nav__menu">
+                    <a href="#" class="nav__item">Sobre mí</a>
+                    <a href="#" class="nav__item">Locución</a>
+                    <a href="#" class="nav__item">Poemas</a>
+                    <a href="#" class="nav__item">Retahílas</a>
+                    <a href="#" class="nav__item">Contacto</a>
+                </div>
+            </div>
+        </nav>
     </div>
     <script src="js/script.js"></script>
 </body>
