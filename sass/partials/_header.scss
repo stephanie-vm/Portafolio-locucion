@@ -24,9 +24,10 @@
 }
 
 .nav__item {
+    --clippy: polygon(0 0, 0 0, 0 99%, 0% 100%);
     color: $secondaryColor;
     text-decoration: none;
-    --clippy: polygon(0 0, 0 0, 0 99%, 0% 100%);
+    font-weight: bold;
 }
 .nav__item::after {
     content: "";

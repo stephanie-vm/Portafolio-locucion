@@ -32,9 +32,10 @@ body {
   margin-top: 20px; }
 
 .nav__item {
+  --clippy: polygon(0 0, 0 0, 0 99%, 0% 100%);
   color: #A16038;
   text-decoration: none;
-  --clippy: polygon(0 0, 0 0, 0 99%, 0% 100%); }
+  font-weight: bold; }
 
 .nav__item::after {
   content: "";
@@ -81,3 +82,10 @@ body {
     transition: clip-path 1s ease-in-out; }
   .nav__input:checked + .nav__menu {
     clip-path: circle(100% at center); } }
+
+.img--phrase {
+  width: 98%; }
+
+@media (min-width: 600px) {
+  .img--phrase {
+    width: 18%; } }
