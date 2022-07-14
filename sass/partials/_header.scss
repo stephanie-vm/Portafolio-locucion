@@ -15,7 +15,8 @@
     height: 70px;
 }
 .nav__img {
-    margin: 20px, -18px, 0,0;
+    margin-top: 20px;
+    margin-right:-18px;
 }
 .nav__menu {
     display: grid;
@@ -47,8 +48,8 @@
 
 @media (max-width:700px) {
     .logo {
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
     }
     .nav__label {
         display: block;
