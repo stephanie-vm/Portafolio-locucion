@@ -14,10 +14,7 @@
     width: 80px;
     height: 80px;
 }
-.nav__img {
-    margin-top: 20px;
-    margin-right:-18px;
-}
+
 .nav__menu {
     display: grid;
     grid-auto-flow: column;
@@ -49,6 +46,14 @@
 }
 
 @media (max-width:860px) {
+    .nav__img {
+        margin-top: 20px;
+        margin-right:-50px;
+    }
+        .nav__item {
+        color: $fourthColor;
+        font-weight:bolder;
+    }
     .logo {
         width: 70px;
         height: 70px;
@@ -61,11 +66,12 @@
         position: fixed;
         top: 80px;
         bottom: 0;
-        background: $thirdColor;
+        background:  linear-gradient(to right, #d1913c, #ffd194); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        ;
         width: 100%;
         left: 0;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         flex-direction: column;
         align-items: center;
         clip-path: circle(0 at center);
