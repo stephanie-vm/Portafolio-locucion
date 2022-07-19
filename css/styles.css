@@ -12,7 +12,8 @@ body {
 
 .nav {
   height: 80px;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  margin-bottom: 45px; }
 
 .nav__container {
   display: flex;
@@ -83,9 +84,24 @@ body {
   .nav__input:checked + .nav__menu {
     clip-path: circle(100% at center); } }
 
+.img--home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em; }
+
 .img--phrase {
   width: 100%; }
 
+.img--conversation {
+  width: 100%; }
+
 @media (min-width: 600px) {
-  .img--phrase {
-    display: none; } }
+  .img--phrase, .img--conversation {
+    width: 60%; } }
+
+@media (min-width: 860px) {
+  .img--home {
+    flex-direction: row; }
+  .img--phrase, .img--conversation {
+    width: 50%; } }
