@@ -91,10 +91,18 @@ body {
   gap: 3em; }
 
 .img--phrase {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 40px; }
 
 .img--conversation {
   width: 100%; }
+
+.about--me {
+  display: flex; }
+
+.img--steph {
+  margin: 0 auto;
+  width: 85%; }
 
 @media (min-width: 600px) {
   .img--phrase, .img--conversation {
