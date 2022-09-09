@@ -98,18 +98,29 @@ body {
   width: 100%; }
 
 .about--me {
-  display: flex; }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em; }
 
 .img--steph {
   margin: 0 auto;
   width: 85%; }
 
+.steph--bio {
+  width: 100%;
+  margin-bottom: 40px; }
+
 @media (min-width: 600px) {
   .img--phrase, .img--conversation {
-    width: 60%; } }
+    width: 60%; }
+  .about--me {
+    flex-direction: row; } }
 
 @media (min-width: 860px) {
   .img--home {
     flex-direction: row; }
-  .img--phrase, .img--conversation {
-    width: 50%; } }
+  .img--phrase {
+    width: 30%; }
+  .img--steph {
+    width: 40%; } }
